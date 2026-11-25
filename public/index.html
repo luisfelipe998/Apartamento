@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f5ef">
+    <meta name="description" content="Chá de casa nova de Karol e Felipe. Um novo lar, com um pouco de você.">
+    <title>Chá de casa nova — Karol e Felipe</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./password-toggle.js" defer></script>
+    <script src="./app.js" type="module"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Casa nova, início">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="m5 15 11-9 11 9M8 13v14h16V13M13 27v-9h6v9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 7V4m-2 2h4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></span>
+        <span>casa nova<span class="brand-caption">KAROL & FELIPE</span></span>
+      </a>
+      <div class="header-note">Um cantinho. Muitas histórias.<span aria-hidden="true">♡</span></div>
+      <button class="text-button hidden" id="logout-button" type="button">Sair <span aria-hidden="true">↗</span></button>
+    </header>
+
+    <main>
+      <section id="welcome-view" class="welcome-view page-width" aria-labelledby="welcome-title">
+        <div class="welcome-copy">
+          <span class="eyebrow"><span class="small-star" aria-hidden="true">✳</span> UM NOVO CAPÍTULO</span>
+          <h1 id="welcome-title">Chá de casa nova <span class="welcome-names">— Karol e Felipe</span></h1>
+          <p class="welcome-lead">Um novo lar, com um pouco de você.</p>
+          <p class="welcome-description">Estamos enchendo a casa de sonhos e boas histórias. Que alegria ter você por perto para celebrar essa nova fase!</p>
+          <form id="login-form" class="login-form" method="post">
+            <label for="password">A senha do nosso convite</label>
+            <div class="password-field"><input id="password" name="password" type="password" placeholder="Digite a senha para entrar" autocomplete="current-password" required aria-describedby="login-error"><button id="password-toggle" type="button" aria-label="Mostrar senha" aria-pressed="false" aria-controls="password"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="2.6" stroke="currentColor" stroke-width="1.6"/><path data-password-slash class="hidden" d="m4 4 16 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></div>
+            <p id="login-error" class="form-error" role="alert"></p>
+            <button id="login-button" class="button button-primary" type="submit">Entrar na lista</button>
+            <p class="login-note">Seu acesso fica salvo neste navegador até você sair.</p>
+          </form>
+        </div>
+        <div class="welcome-art" aria-hidden="true">
+          <div class="art-sun"></div><span class="art-star art-star-one">✳</span><span class="art-star art-star-two">✧</span>
+          <svg class="home-scene" viewBox="0 0 520 570" fill="none">
+            <path d="M89 418V197a169 169 0 0 1 338 0v221Z" fill="#e8e7da"/>
+            <path d="M106 418V197a152 152 0 0 1 304 0v221Z" fill="#f2eee2"/>
+            <path d="M106 225h298M257 47v299" stroke="#e1d9c9" stroke-width="9"/>
+            <path d="M116 229c28-17 68-29 108-16 45 15 61 25 96 11 31-12 60-11 84-5v127H116Z" fill="#d4dbc9"/>
+            <path d="M116 283c74-52 118 35 184-8 39-24 70-23 104-11v84H116Z" fill="#b9c7ad"/>
+            <path d="M106 348h307" stroke="#e1d9c9" stroke-width="9"/>
+            <ellipse cx="260" cy="451" rx="218" ry="34" fill="#e4dccd"/>
+            <path d="M145 449V314c0-28 20-50 46-50h109c26 0 46 22 46 50v135Z" fill="#b66f53"/>
+            <path d="M159 407v-79a26 26 0 0 1 26-26h120a26 26 0 0 1 26 26v79" fill="#c98b6a"/>
+            <rect x="141" y="382" width="211" height="59" rx="23" fill="#bc7c5d"/>
+            <path d="M148 440v25m197-25v25" stroke="#684c39" stroke-width="10" stroke-linecap="round"/>
+            <rect x="129" y="351" width="40" height="95" rx="20" fill="#d19474"/><rect x="322" y="351" width="40" height="95" rx="20" fill="#d19474"/>
+            <path d="m227 325 56-7 12 60-57 4Z" fill="#e6d9b9"/><path d="m239 327 9 51m6-53 10 51m6-53 9 50" stroke="#c9b892" stroke-width="3"/>
+            <path d="M87 436V217" stroke="#626650" stroke-width="7"/><ellipse cx="88" cy="442" rx="30" ry="7" fill="#626650"/><path d="M46 231h86l-21-65H67Z" fill="#d7bc83"/><ellipse cx="89" cy="231" rx="43" ry="8" fill="#d0b477"/>
+            <path d="m382 425-11 55m55-55 10 55" stroke="#886d4e" stroke-width="7" stroke-linecap="round"/><ellipse cx="404" cy="419" rx="51" ry="15" fill="#b39773"/><path d="M353 419v8c0 8 23 15 51 15s51-7 51-15v-8" fill="#a98b65"/><ellipse cx="404" cy="419" rx="51" ry="15" fill="#c0a482"/>
+            <path d="M395 395h26v18h-26Z" fill="#efe6d4"/><path d="M421 398h5a5 5 0 0 1 0 10h-5" stroke="#efe6d4" stroke-width="4"/>
+            <path d="m435 325 10 61h33l10-61Z" fill="#b87c5f"/><ellipse cx="461" cy="325" rx="26" ry="6" fill="#9d674d"/><path d="M460 324v-76m0 44 20-26m-20 13-21-30" stroke="#637551" stroke-width="4" stroke-linecap="round"/><path d="M459 281c-25-1-37-19-30-37 22-1 36 15 30 37ZM462 268c-13-17-11-35 4-46 18 15 18 33-4 46ZM464 299c1-25 13-39 32-35 3 23-11 38-32 35Z" fill="#718564"/>
+          </svg>
+          <div class="art-caption"><span class="handwritten">que seja doce, que seja lar.</span><span class="caption-line"></span><span class="art-heart">♡</span></div>
+        </div>
+      </section>
+
+      <section id="list-view" class="list-view page-width hidden" aria-labelledby="list-title">
+        <div class="list-hero">
+          <div class="hero-copy"><span class="eyebrow"><span class="small-star" aria-hidden="true">✳</span> CHÁ DE CASA NOVA — KAROL E FELIPE</span><h1 id="list-title" tabindex="-1">Um novo lar,<br>com um pouco de <em>você.</em></h1><p id="list-description">Cada detalhe vai fazer parte da nossa história. Escolha um presente e ajude a deixar o nosso cantinho com cara de lar.</p></div>
+          <div class="hero-note"><span class="note-star" aria-hidden="true">✳</span><p>O melhor presente<br>é ter você por perto.</p><span>com carinho, Karol e Felipe</span><svg aria-hidden="true" viewBox="0 0 70 30" fill="none"><path d="M4 16c13 8 43 8 59-8m-11 0 12-2-3 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </div>
+        <p id="demo-label" class="demo-label hidden">Modo de demonstração · suas escolhas ficam somente neste navegador.</p>
+        <div class="list-overview"><div class="overview-label"><span class="overview-icon" aria-hidden="true">♡</span><div><strong>Uma casa feita de carinho</strong><span id="progress-description">Carregando a nossa lista…</span></div></div><div class="overview-progress"><div class="progress-track" role="progressbar" aria-label="Presentes reservados" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="gift-progress"><span id="progress-fill"></span></div><span id="progress-number">—</span></div></div>
+        <p class="device-note"><span aria-hidden="true">↺</span><span>Para trocar ou cancelar um presente, volte pelo <strong>mesmo dispositivo e navegador</strong> usados na primeira reserva. Suas escolhas ficam em <strong>Meus presentes</strong>. Se não conseguir acessar esse dispositivo, <strong>fale com o Felipe</strong>.</span></p>
+        <div class="collection-heading"><div><span class="eyebrow">PARA O NOSSO CANTINHO</span><h2>Pequenos desejos, grandes sorrisos.</h2></div><button class="refresh-button" id="refresh-button" type="button"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 8a8 8 0 0 0-14-2L3 9m0-5v5h5m-4 7a8 8 0 0 0 14 2l3-3m0 5v-5h-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Atualizar</span></button></div>
+        <div class="list-toolbar"><div class="status-filters" role="group" aria-label="Filtrar por reserva"><button type="button" data-status="all" class="filter-pill active" aria-pressed="true">Todos <span id="count-all">0</span></button><button type="button" data-status="available" class="filter-pill" aria-pressed="false">Disponíveis <span id="count-available">—</span></button><button type="button" data-status="reserved" class="filter-pill" aria-pressed="false">Reservados <span id="count-reserved">—</span></button><button type="button" data-status="mine" class="filter-pill" aria-pressed="false">Meus presentes <span id="count-mine">—</span></button></div><div class="search-controls"><label class="search-field" for="search"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.6"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><input id="search" type="search" placeholder="Buscar um presente" aria-label="Buscar um presente"></label><select id="category-filter" aria-label="Filtrar por ambiente"><option value="">Todos os ambientes</option></select></div></div>
+        <div id="list-message" class="list-message hidden" role="status"></div>
+        <div id="gift-grid" class="gift-grid" aria-busy="true"></div>
+        <div id="empty-state" class="empty-state hidden"><span aria-hidden="true">✧</span><h3>Nenhum presente por aqui… ainda.</h3><p id="empty-description">Experimente outra busca ou escolha um ambiente diferente.</p><button id="clear-filters" type="button" class="button button-secondary">Ver todos os presentes</button></div>
+        <p class="list-footnote"><span aria-hidden="true">♡</span> Reserve o presente antes de comprar, assim cada carinho encontra seu lugar.</p>
+      </section>
+    </main>
+    <footer class="site-footer page-width"><span>Chá de casa nova <span aria-hidden="true">·</span> Karol e Felipe</span><span>Feito de sonhos, café e gente querida <span aria-hidden="true">♡</span></span></footer>
+
+    <dialog id="gift-dialog" class="gift-dialog" aria-labelledby="dialog-title"><button type="button" class="dialog-close icon-button" id="close-dialog" aria-label="Fechar detalhes">×</button><div class="dialog-layout"><div id="dialog-gallery" class="dialog-gallery"><div class="dialog-image-wrap"><img id="dialog-image" alt="" draggable="false"><button id="dialog-previous" class="carousel-arrow carousel-previous hidden" type="button" aria-label="Imagem anterior"><span aria-hidden="true">‹</span></button><button id="dialog-next" class="carousel-arrow carousel-next hidden" type="button" aria-label="Próxima imagem"><span aria-hidden="true">›</span></button><span id="dialog-image-count" class="carousel-count hidden" aria-live="polite" aria-atomic="true"></span></div><div id="dialog-thumbnails" class="dialog-thumbnails" aria-label="Escolher imagem do presente"></div></div><div class="dialog-content"><span id="dialog-category" class="eyebrow"></span><h2 id="dialog-title"></h2><p id="dialog-description"></p><div id="dialog-status" class="dialog-status"></div><div class="purchase-section"><h3>Onde encontrar</h3><p>Algumas sugestões para você pesquisar e escolher.</p><div id="purchase-links" class="purchase-links"></div></div><form id="reservation-form" class="reservation-form"><p class="reservation-hint">Para alterar ou liberar este presente depois, volte pelo mesmo dispositivo e navegador usados nesta reserva. Se não conseguir, fale com o Felipe.</p><button id="reserve-button" class="button button-primary" type="submit">Quero presentear <span aria-hidden="true">♡</span></button></form><div id="release-section" class="release-section hidden"><p>Esse carinho ficou por sua conta! Se mudar de ideia, é só liberar o presente.</p><button id="release-button" class="button button-secondary" type="button">Liberar este presente</button></div><p id="dialog-error" class="form-error" role="alert"></p></div></div></dialog>
+    <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+    <noscript><p class="noscript-message">Ative o JavaScript no navegador para abrir a lista e reservar um presente.</p></noscript>
+  </body>
+</html>

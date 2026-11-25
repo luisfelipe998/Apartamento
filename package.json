@@ -1,0 +1,14 @@
+{
+  "name": "cha-de-casa-nova-karol-e-felipe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node --env-file-if-exists=.env scripts/build.mjs",
+    "start": "npm run build && node --env-file-if-exists=.env scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser-smoke.mjs",
+    "check:github": "node --env-file=.env scripts/check-github.mjs"
+  }
+}

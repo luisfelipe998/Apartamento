@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" fill="none" role="img" aria-labelledby="title">
+<title id="title">Figueira de folhas largas em vaso de terracota</title>
+<defs>
+  <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFDF6"/><stop offset=".56" stop-color="#E4DFCE"/><stop offset="1" stop-color="#C5BDA7"/></linearGradient>
+  <linearGradient id="sage" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B7C4AE"/><stop offset=".55" stop-color="#889D84"/><stop offset="1" stop-color="#60775F"/></linearGradient>
+  <linearGradient id="clay" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D99B7B"/><stop offset=".55" stop-color="#BF7D60"/><stop offset="1" stop-color="#985D46"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#B7B6AC"/><stop offset=".3" stop-color="#F8F5EB"/><stop offset=".6" stop-color="#BBBDB4"/><stop offset=".8" stop-color="#E2E2D7"/><stop offset="1" stop-color="#959B94"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#C8A07C" stop-opacity=".5"/><stop offset=".3" stop-color="#F1DFC1" stop-opacity=".22"/><stop offset=".72" stop-color="#D7AE80" stop-opacity=".36"/><stop offset="1" stop-color="#A8774C" stop-opacity=".6"/></linearGradient>
+  <filter id="shadow" x="-40%" y="-120%" width="180%" height="340%"><feGaussianBlur stdDeviation="11"/></filter>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#5C5038" flood-opacity=".12"/></filter>
+  <pattern id="linen" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 1H5M1 0V5" stroke="#FFFDF7" stroke-opacity=".2" stroke-width=".7"/></pattern>
+</defs>
+<path fill="#EFEEE4" d="M0 0H640V480H0z"/>
+
+<circle cx="323" cy="212" r="167" fill="#E3E5D5"/><path d="M0 380C208 342 428 352 640 374V480H0Z" fill="#E3DFCE"/>
+<ellipse cx="327" cy="410" rx="135" ry="17" fill="#7C745C" opacity=".19" filter="url(#shadow)"/>
+<path d="M323 315C323 254 308 189 327 104M320 226L265 178M320 268L369 218M320 173L366 134" stroke="#7D7650" stroke-width="6" stroke-linecap="round"/>
+<path d="M327 141C297 127 287 93 307 66C342 72 357 109 327 141Z" fill="#648062"/><path d="M327 141L312 79" stroke="#9EB194" stroke-width="2"/>
+<path d="M317 200C275 196 235 170 238 128C282 119 320 148 317 200Z" fill="#557657"/><path d="M317 200L249 142M282 168L275 142M281 167L254 168" stroke="#8DA589" stroke-width="2"/>
+<path d="M347 155C347 112 375 82 416 87C421 128 391 157 347 155Z" fill="#7A926B"/><path d="M347 155L404 99M373 128L395 127M373 128L374 109" stroke="#B3C19B" stroke-width="2"/>
+<path d="M322 248C279 257 234 244 218 210C250 184 303 196 322 248Z" fill="#819769"/><path d="M322 248L233 214M278 231L261 207M278 231L254 238" stroke="#BDC69E" stroke-width="2"/>
+<path d="M340 236C347 186 381 157 425 177C421 224 387 250 340 236Z" fill="#496C4C"/><path d="M340 236L411 185M373 212L380 187M373 212L402 210" stroke="#8AA582" stroke-width="2"/>
+<path d="M328 292C352 248 391 233 422 255C408 294 366 310 328 292Z" fill="#91A777"/><path d="M328 292L407 261" stroke="#C1CDA6" stroke-width="2"/>
+<g filter="url(#soft)"><ellipse cx="324" cy="401" rx="82" ry="15" fill="#AD7458"/><path d="M234 297H414L392 387C388 407 260 407 256 387Z" fill="url(#clay)"/><path d="M251 316L267 381" stroke="#E5AD8B" stroke-width="5" stroke-linecap="round" opacity=".6"/><path d="M232 290H416V309C416 328 232 328 232 309Z" fill="#C88C6C"/><ellipse cx="324" cy="290" rx="92" ry="24" fill="#D9A384"/><ellipse cx="324" cy="290" rx="78" ry="16" fill="#785941"/><ellipse cx="324" cy="293" rx="70" ry="12" fill="#635340"/><path d="M324 277V299" stroke="#857C53" stroke-width="6"/><path d="M244 298C283 313 366 313 405 298" stroke="#E3AE8F" stroke-width="2"/></g>
+</svg>

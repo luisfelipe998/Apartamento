@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+public/access.json
+node_modules/
+test-results/
+.DS_Store
