@@ -1,6 +1,12 @@
 name: Publicar lista de presentes
 on:
   workflow_dispatch:
+    inputs:
+      password_secret:
+        description: 'Nome do secret com a senha de acesso (não informe a senha aqui)'
+        type: string
+        required: true
+        default: GIFT_PASSWORD
 permissions:
   contents: read
   pages: write
@@ -25,7 +31,7 @@ jobs:
         run: node scripts/build.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GIFT_GITHUB_TOKEN }}
-          GIFT_PASSWORD: ${{ secrets.GIFT_PASSWORD }}
+          GIFT_PASSWORD: ${{ secrets[inputs.password_secret] }}
           GITHUB_OWNER: luisfelipe998
           GITHUB_REPO: Apartamento
           GITHUB_AUTHOR: luisfelipe998
