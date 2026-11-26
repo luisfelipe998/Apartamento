@@ -93,7 +93,7 @@ input::placeholder { color: #8a8d83; opacity: 1; }
 .collection-heading { display: flex; justify-content: space-between; align-items: flex-end; padding: 49px 0 26px; gap: 20px; }
 .collection-heading .eyebrow { font-size: 11px; letter-spacing: 1.8px; color: #858b79; }
 .collection-heading h2 { font-size: 29px; margin-top: 7px; letter-spacing: -.5px; }
-.gift-guidance { max-width: 880px; margin: -8px 0 27px; padding-left: 16px; border-left: 2px solid #cbb69b; color: #5e6956; font-size: 14px; line-height: 1.75; }
+.gift-guidance { margin: -8px 0 27px; padding-left: 16px; border-left: 2px solid #cbb69b; color: #5e6956; font-size: 14px; line-height: 1.75; }
 .gift-guidance strong { color: var(--green); font-weight: 600; }
 .gift-guidance > span { display: block; margin-top: 5px; font-size: 13px; }
 .refresh-button { display: flex; gap: 7px; align-items: center; border: 0; background: none; color: var(--muted); font-size: 12px; min-height: 38px; padding: 10px 0 10px 10px; }
