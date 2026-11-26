@@ -1,0 +1,218 @@
+{
+  "title": "Chá de casa nova — Karol e Felipe",
+  "subtitle": "Cada detalhe vai fazer parte da nossa história. Escolha um presente e ajude a deixar o nosso cantinho com cara de lar.",
+  "items": [
+    {
+      "id": "jogo-panelas",
+      "name": "Uma panela, muitas receitas",
+      "description": "Uma panela de ferro esmaltada para os almoços de domingo e aquelas receitas que a gente ainda vai aprender. Tamanho de 22 a 24 cm, em verde ou creme.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/cookware.svg",
+          "alt": "Ilustração de panela de ferro esmaltada em verde"
+        }
+      ],
+      "links": [
+        {
+          "label": "Pesquisar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=panela+ferro+esmaltada+24cm"
+        },
+        {
+          "label": "Pesquisar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/panela-ferro-esmaltada-24cm"
+        },
+        {
+          "label": "Pesquisar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=panela+ferro+esmaltada+24cm"
+        }
+      ]
+    },
+    {
+      "id": "cafeteira",
+      "name": "Café para começar o dia",
+      "description": "Uma máquina de espresso para espalhar cheirinho de café pela casa. Compacta, em tons claros e com voltagem de 127 V, para celebrar até as manhãs de segunda.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/espresso-machine.svg",
+          "alt": "Ilustração de máquina de espresso em tom creme"
+        },
+        {
+          "src": "./assets/espresso-detail.svg",
+          "alt": "Ilustração com detalhe da máquina de espresso e uma xícara de café"
+        }
+      ],
+      "links": [
+        {
+          "label": "Pesquisar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=cafeteira+espresso+127v"
+        },
+        {
+          "label": "Pesquisar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/cafeteira-espresso-127v"
+        },
+        {
+          "label": "Pesquisar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=cafeteira+espresso+127v"
+        }
+      ]
+    },
+    {
+      "id": "jogo-pratos",
+      "name": "Uma mesa cheia de afeto",
+      "description": "Pratos de cerâmica para receber gente querida e transformar qualquer refeição em um encontro. Um conjunto com 6 pratos rasos, em branco ou areia.",
+      "category": "Mesa posta",
+      "images": [
+        {
+          "src": "./assets/dinnerware.svg",
+          "alt": "Ilustração de pratos e tigelas de cerâmica em tom areia"
+        }
+      ],
+      "links": [
+        {
+          "label": "Pesquisar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=jogo+6+pratos+ceramica+areia"
+        },
+        {
+          "label": "Pesquisar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/jogo-6-pratos-ceramica-areia"
+        },
+        {
+          "label": "Pesquisar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=jogo+6+pratos+ceramica+areia"
+        }
+      ]
+    },
+    {
+      "id": "copos-ambar",
+      "name": "Um brinde aos novos começos",
+      "description": "Um jogo de 6 copos de vidro âmbar para servir o suco, a água geladinha e muitos brindes à nossa nova fase. Preferimos modelos de 250 a 350 ml.",
+      "category": "Mesa posta",
+      "images": [
+        {
+          "src": "./assets/glasses.svg",
+          "alt": "Ilustração de copos de vidro âmbar"
+        }
+      ],
+      "links": [
+        {
+          "label": "Pesquisar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=jogo+6+copos+vidro+ambar"
+        },
+        {
+          "label": "Pesquisar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/jogo-6-copos-vidro-ambar"
+        },
+        {
+          "label": "Pesquisar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=jogo+6+copos+vidro+ambar"
+        }
+      ]
+    },
+    {
+      "id": "jogo-cama",
+      "name": "Para sonhar bem juntinho",
+      "description": "Um jogo de cama queen, 100% algodão, para os dias de descanso no nosso novo ninho. Tons de branco, areia ou verde suave são os nossos favoritos.",
+      "category": "Quarto",
+      "images": [
+        {
+          "src": "./assets/bedding.svg",
+          "alt": "Ilustração de roupa de cama dobrada em tons de verde e creme"
+        }
+      ],
+      "links": [
+        {
+          "label": "Pesquisar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=jogo+cama+queen+algodao+bege"
+        },
+        {
+          "label": "Pesquisar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/jogo-cama-queen-algodao-bege"
+        },
+        {
+          "label": "Pesquisar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=jogo+cama+queen+algodao+bege"
+        }
+      ]
+    },
+    {
+      "id": "toalhas-banho",
+      "name": "Um abraço depois do banho",
+      "description": "Toalhas macias para os pequenos momentos de cuidado. Um jogo com 2 toalhas de banho e 2 de rosto, de algodão, em cores claras.",
+      "category": "Banheiro",
+      "images": [
+        {
+          "src": "./assets/towels.svg",
+          "alt": "Ilustração de toalhas de algodão empilhadas"
+        }
+      ],
+      "links": [
+        {
+          "label": "Pesquisar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=jogo+toalhas+banho+rosto+algodao+4+pecas"
+        },
+        {
+          "label": "Pesquisar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/jogo-toalhas-banho-rosto-algodao-4-pecas"
+        },
+        {
+          "label": "Pesquisar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=jogo+toalhas+banho+rosto+algodao+4+pecas"
+        }
+      ]
+    },
+    {
+      "id": "torradeira",
+      "name": "Manhãs com pão quentinho",
+      "description": "Uma torradeira compacta, com espaço para duas fatias, para deixar o café da manhã ainda mais gostoso. Em tom claro e voltagem de 127 V.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/toaster.svg",
+          "alt": "Ilustração de torradeira em tom claro com duas fatias de pão"
+        }
+      ],
+      "links": [
+        {
+          "label": "Pesquisar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=torradeira+2+fatias+127v"
+        },
+        {
+          "label": "Pesquisar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/torradeira-2-fatias-127v"
+        },
+        {
+          "label": "Pesquisar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=torradeira+2+fatias+127v"
+        }
+      ]
+    },
+    {
+      "id": "vasos",
+      "name": "Um pouco de verde por perto",
+      "description": "Uma plantinha e um vaso de cerâmica para trazer mais vida à sala. Pode ser uma figueira-lira ou outra espécie que goste de bastante luz indireta. Vamos cuidar com muito carinho!",
+      "category": "Decoração",
+      "images": [
+        {
+          "src": "./assets/plant.svg",
+          "alt": "Ilustração de figueira em vaso de cerâmica"
+        }
+      ],
+      "links": [
+        {
+          "label": "Pesquisar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=vaso+ceramica+plantas"
+        },
+        {
+          "label": "Pesquisar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/figueira-lira-vaso"
+        },
+        {
+          "label": "Pesquisar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=vaso+ceramica+plantas"
+        }
+      ]
+    }
+  ]
+}

@@ -41,7 +41,8 @@ try {
     repo: 'Apartamento', author: 'luisfelipe998', issueNumber: 1 }, 'password');
   await writeFile(join(fixture, 'public', 'access.json'), JSON.stringify(envelope));
   const catalogFile = join(fixture, 'public', 'data', 'items.json');
-  const catalog = JSON.parse(await readFile(catalogFile, 'utf8'));
+  // Keep interaction coverage stable when the couple changes the real wish list.
+  const catalog = JSON.parse(await readFile(new URL('./fixtures/items.json', import.meta.url), 'utf8'));
   catalog.items.find((item) => item.id === 'cafeteira').images = [
     './assets/espresso-machine.svg',
     { url: remoteImageOrigin + '/espresso-detail.svg', alt: 'Imagem externa da cafeteira' },

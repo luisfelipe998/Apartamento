@@ -3,214 +3,690 @@
   "subtitle": "Cada detalhe vai fazer parte da nossa história. Escolha um presente e ajude a deixar o nosso cantinho com cara de lar.",
   "items": [
     {
-      "id": "jogo-panelas",
-      "name": "Uma panela, muitas receitas",
-      "description": "Uma panela de ferro esmaltada para os almoços de domingo e aquelas receitas que a gente ainda vai aprender. Tamanho de 22 a 24 cm, em verde ou creme.",
+      "id": "potes-vidro",
+      "name": "Potes de vidro",
+      "description": "Kit com 5 potes de vidro Dolce Home e tampas plásticas pretas. Para guardar os alimentos e deixar a nossa cozinha organizada.",
       "category": "Cozinha",
       "images": [
         {
-          "src": "./assets/cookware.svg",
-          "alt": "Ilustração de panela de ferro esmaltada em verde"
+          "src": "./assets/gifts/potes-vidro/01.jpg",
+          "alt": "Kit Dolce Home com 5 potes de vidro e tampas plásticas pretas",
+          "sourceUrl": "https://precolandia.vteximg.com.br/arquivos/ids/278469/Tigela-de-Vidro-com-Tampa-Plstica-Preta-5-Peas---Dolce-Home.jpg?v=639057417561600000"
+        },
+        {
+          "src": "./assets/gifts/potes-vidro/02.jpg",
+          "alt": "Kit Dolce Home com cinco potes de vidro e tampas pretas",
+          "sourceUrl": "https://a-static.mlcdn.com.br/600x600/kit-de-5-tigelas-de-vidro-com-tampa-elastica-preta-d1212-dolce-home/copafer/39821/aed69fd90bc758510f17882bdd32522a.jpeg"
         }
       ],
       "links": [
         {
-          "label": "Pesquisar na Amazon",
-          "url": "https://www.amazon.com.br/s?k=panela+ferro+esmaltada+24cm"
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=kit+5+potes+vidro+tampa+preta+Dolce+Home"
         },
         {
-          "label": "Pesquisar no Mercado Livre",
-          "url": "https://lista.mercadolivre.com.br/panela-ferro-esmaltada-24cm"
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/kit-5-potes-de-vidro-com-tampa-plastica-preto-dolce-home/p/MLB23978112?pdp_filters=item_id%3AMLB7840492410"
         },
         {
-          "label": "Pesquisar na Shopee",
-          "url": "https://shopee.com.br/search?keyword=panela+ferro+esmaltada+24cm"
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=kit+5+potes+vidro+tampa+preta+Dolce+Home"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/kit+5+potes+vidro+tampa+preta+Dolce+Home/"
         }
       ]
     },
     {
-      "id": "cafeteira",
-      "name": "Café para começar o dia",
-      "description": "Uma máquina de espresso para espalhar cheirinho de café pela casa. Compacta, em tons claros e com voltagem de 127 V, para celebrar até as manhãs de segunda.",
+      "id": "utensilios-silicone",
+      "name": "Utensílios de silicone",
+      "description": "Conjunto X-Matte com 10 utensílios de silicone preto que não riscam as panelas. Um carinho para acompanhar as receitas da casa nova.",
       "category": "Cozinha",
       "images": [
         {
-          "src": "./assets/espresso-machine.svg",
-          "alt": "Ilustração de máquina de espresso em tom creme"
-        },
-        {
-          "src": "./assets/espresso-detail.svg",
-          "alt": "Ilustração com detalhe da máquina de espresso e uma xícara de café"
+          "src": "./assets/gifts/utensilios-silicone/01.jpg",
+          "alt": "Conjunto X-Matte com dez utensílios de silicone preto",
+          "sourceUrl": "https://a-static.mlcdn.com.br/600x600/conjunto-utensilios-jogo-kit-profissional-10-pecas-cozinha-silicone-resistente-a-altas-temperaturas-antiriscos-bpa-free-colher-espatulas-preto-xmatte-x-matte/labe-commerce/conj-10-ucsili-pt/71f1ab4a48671895527bd7ae33d7d3b3.jpeg"
         }
       ],
       "links": [
         {
-          "label": "Pesquisar na Amazon",
-          "url": "https://www.amazon.com.br/s?k=cafeteira+espresso+127v"
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=utensilios+silicone+preto+10+pecas+X+Matte"
         },
         {
-          "label": "Pesquisar no Mercado Livre",
-          "url": "https://lista.mercadolivre.com.br/cafeteira-espresso-127v"
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/conjunto-de-utensilios-x-matte-para-cozinha-10-pecas-em-silicone-preto-que-nao-risca/p/MLB70064469?pdp_filters=item_id%3AMLB6821204022"
         },
         {
-          "label": "Pesquisar na Shopee",
-          "url": "https://shopee.com.br/search?keyword=cafeteira+espresso+127v"
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=utensilios+silicone+preto+10+pecas+X+Matte"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/utensilios+silicone+preto+10+pecas+X+Matte/"
         }
       ]
     },
     {
-      "id": "jogo-pratos",
-      "name": "Uma mesa cheia de afeto",
-      "description": "Pratos de cerâmica para receber gente querida e transformar qualquer refeição em um encontro. Um conjunto com 6 pratos rasos, em branco ou areia.",
+      "id": "porta-temperos",
+      "name": "Porta-temperos giratório",
+      "description": "Organizador com 9 potes de vidro, base giratória de 360° e etiquetas. Para ter nossos temperos favoritos sempre à mão.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/porta-temperos/01.jpg",
+          "alt": "Foto de referência: porta-temperos giratório com nove potes de vidro",
+          "sourceUrl": "https://a-static.mlcdn.com.br/600x600/porta-temperos-condimentos-9-potes-de-vidro-base-giratoria-360-9-etiquetas-adesiva-organizador-cozi-nobrand/shopemimportados/portatempero9preto/b9dd3cb6626c5fd2142b17c6c3ca7aeb.jpeg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=porta+temperos+9+potes+vidro+giratorio"
+        },
+        {
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/porta-temperos-condimentos-9-potes-de-vidro-base-giratoria-360-9-etiquetas-adesiva-organizador-cozinha-dosador-suporte-bancada-mesa-oregano-sal-paprica-pimenta-indue-variedades/p/MLB74764864?pdp_filters=item_id%3AMLB7820325382"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=porta+temperos+9+potes+vidro+giratorio"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/porta+temperos+9+potes+vidro+giratorio/"
+        }
+      ]
+    },
+    {
+      "id": "aspirador-po",
+      "name": "Aspirador de pó — 110 V",
+      "description": "Aspirador Electrolux STK12 preto, portátil e vertical, de 1100 W. Escolher a versão 110 V para cuidar do nosso cantinho.",
+      "category": "Lavanderia",
+      "images": [
+        {
+          "src": "./assets/gifts/aspirador-po/01.jpg",
+          "alt": "Aspirador Electrolux STK12 preto 110 V — foto 1",
+          "sourceUrl": "https://a-static.mlcdn.com.br/800x800/aspirador-de-po-vertical-1100w-stk12-electrolux-2-em-1/magazineluiza/021499100/10e3e4f4b996742d8693160730706206.jpg"
+        },
+        {
+          "src": "./assets/gifts/aspirador-po/02.jpg",
+          "alt": "Aspirador Electrolux STK12 preto 110 V — foto 2",
+          "sourceUrl": "https://a-static.mlcdn.com.br/800x800/aspirador-de-po-vertical-1100w-stk12-electrolux-2-em-1/magazineluiza/021499100/c5b7d547e552badadd9fc9ce80ab0fc3.jpg"
+        },
+        {
+          "src": "./assets/gifts/aspirador-po/03.jpg",
+          "alt": "Aspirador Electrolux STK12 preto em modo portátil, com bocal para cantos e frestas",
+          "sourceUrl": "https://electrolux.vteximg.com.br/arquivos/ids/281866/Vacuum_Cleaner_STK12_HepaFilter_Electrolux_Portuguese-4500x4500.jpg?v=638905372276900000"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=aspirador+Electrolux+STK12+110V"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/aspirador-electrolux-stk12-110v"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=aspirador+Electrolux+STK12+110V"
+        },
+        {
+          "label": "Magazine Luiza",
+          "url": "https://clube.magazineluiza.com.br/meliuz/aspirador-de-po-vertical-1100w-stk12-electrolux-2-em-1/p/021499100/ep/apdv/"
+        }
+      ]
+    },
+    {
+      "id": "escorredor-louca",
+      "name": "Escorredor de louça com bandeja",
+      "description": "Escorredor para 14 pratos, com espaço para copos e talheres e bandeja para recolher a água. Para deixar a pia organizada depois das refeições.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/escorredor-louca/01.jpg",
+          "alt": "Foto de referência: escorredor para 14 pratos com porta-copos, talheres e bandeja",
+          "sourceUrl": "https://a-static.mlcdn.com.br/600x600/escorredor-de-louca-14-pratos-com-porta-copos-talheres-e-bandeja-sao-bernardo/kasm/30001775pr/2b2d60fb981b07edf80a3ceec2a9ce5f.jpeg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=escorredor+louca+14+pratos+bandeja+porta+copos+talheres"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/escorredor-louca-14-pratos-bandeja-porta-copos-talheres"
+        },
+        {
+          "label": "Shopee",
+          "url": "https://br.shp.ee/cC673r7D"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/escorredor+louca+14+pratos+bandeja+porta+copos+talheres/"
+        }
+      ]
+    },
+    {
+      "id": "ferro-passar",
+      "name": "Ferro de passar — 127 V",
+      "description": "Ferro Electrolux ESI10 azul, a vapor e a seco, com base antiaderente e cabo de 1,35 m. Escolher a versão 127 V (110 V).",
+      "category": "Lavanderia",
+      "images": [
+        {
+          "src": "./assets/gifts/ferro-passar/01.jpg",
+          "alt": "Ferro de passar Electrolux ESI10 azul — vista do produto",
+          "sourceUrl": "https://electrolux.vteximg.com.br/arquivos/ids/296221/ferro-de-passar-a-vapor-e-a-seco-electrolux-efficient--esi10--_Frente.jpg?v=639232785781430000"
+        },
+        {
+          "src": "./assets/gifts/ferro-passar/02.jpg",
+          "alt": "Ferro de passar Electrolux ESI10 azul — foto 2",
+          "sourceUrl": "https://electrolux.vteximg.com.br/arquivos/ids/296222/ferro-de-passar-a-vapor-e-a-seco-electrolux-efficient--esi10--_Medidas1.jpg?v=639232785782030000"
+        },
+        {
+          "src": "./assets/gifts/ferro-passar/03.jpg",
+          "alt": "Ferro de passar Electrolux ESI10 azul — foto 3",
+          "sourceUrl": "https://electrolux.vteximg.com.br/arquivos/ids/296223/ferro-de-passar-a-vapor-e-a-seco-electrolux-efficient--esi10--_Detalhe1.jpg?v=639232785782130000"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=ferro+Electrolux+ESI10+127V"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/ferro-electrolux-esi10-127v-azul"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=ferro+Electrolux+ESI10+127V+azul"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/ferro+Electrolux+ESI10+127V+azul/"
+        }
+      ]
+    },
+    {
+      "id": "lixeira-pia",
+      "name": "Lixeira para pia",
+      "description": "Lixeira Sanremo Casablanca de 5 litros, modelo SR2205, com tampa basculante. Um item prático para o dia a dia da cozinha.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/lixeira-pia/01.jpg",
+          "alt": "Lixeira branca Sanremo Casablanca de 5 litros com tampa basculante",
+          "sourceUrl": "https://zaffari.vtexassets.com/arquivos/ids/327993/1129318-00.jpg.jpg?v=639275859420970000"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=lixeira+Sanremo+Casablanca+5+litros+SR2205"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/lixeira-sanremo-casablanca-5-litros-sr2205"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=lixeira+Sanremo+Casablanca+5+litros+SR2205"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/lixeira+Sanremo+Casablanca+5+litros+SR2205/"
+        },
+        {
+          "label": "Zaffari",
+          "url": "https://www.zaffari.com.br/lixeira-multiuso-casablanca-com-tampa-basculante-sr2205-sanremo-5-litros-1129318/p"
+        }
+      ]
+    },
+    {
+      "id": "descansos-panela",
+      "name": "Descansos de panela",
+      "description": "Kit em MDF com 4 descansos de panela e 2 suportes para travessas. Para proteger a mesa enquanto a gente divide uma comida gostosa.",
       "category": "Mesa posta",
       "images": [
         {
-          "src": "./assets/dinnerware.svg",
-          "alt": "Ilustração de pratos e tigelas de cerâmica em tom areia"
+          "src": "./assets/gifts/descansos-panela/01.jpg",
+          "alt": "Descansos de panela e apoios para travessas em MDF, com recortes geométricos",
+          "sourceUrl": "https://m.media-amazon.com/images/I/61O-yH410UL.jpg"
         }
       ],
       "links": [
         {
-          "label": "Pesquisar na Amazon",
-          "url": "https://www.amazon.com.br/s?k=jogo+6+pratos+ceramica+areia"
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=kit+4+descansos+panela+2+suportes+travessa+MDF"
         },
         {
-          "label": "Pesquisar no Mercado Livre",
-          "url": "https://lista.mercadolivre.com.br/jogo-6-pratos-ceramica-areia"
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/kit-4-descansos-panela-2-suportes-travessa-mdf"
         },
         {
-          "label": "Pesquisar na Shopee",
-          "url": "https://shopee.com.br/search?keyword=jogo+6+pratos+ceramica+areia"
+          "label": "Shopee",
+          "url": "https://br.shp.ee/9izsoKGB"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/kit+4+descansos+panela+2+suportes+travessa+MDF/"
         }
       ]
     },
     {
-      "id": "copos-ambar",
-      "name": "Um brinde aos novos começos",
-      "description": "Um jogo de 6 copos de vidro âmbar para servir o suco, a água geladinha e muitos brindes à nossa nova fase. Preferimos modelos de 250 a 350 ml.",
+      "id": "jogo-americano",
+      "name": "Jogo americano cinza-claro",
+      "description": "Kit com 6 jogos americanos tipo sousplat, redondos, de 38 cm. Escolher a cor cinza-claro para compor a nossa mesa.",
       "category": "Mesa posta",
       "images": [
         {
-          "src": "./assets/glasses.svg",
-          "alt": "Ilustração de copos de vidro âmbar"
+          "src": "./assets/gifts/jogo-americano/01.jpg",
+          "alt": "Foto de referência: jogo americano redondo cinza-claro com seis peças",
+          "sourceUrl": "https://a-static.mlcdn.com.br/800x800/jogo-americano-redondo-6-pecas-sousplat-mesa-pos-cinza-claro-congratulations-store/storedeto/mlb5268533432-cinza-claro-1/bad6293f0cd88adcbd2329010c3223b8.jpeg"
         }
       ],
       "links": [
         {
-          "label": "Pesquisar na Amazon",
-          "url": "https://www.amazon.com.br/s?k=jogo+6+copos+vidro+ambar"
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=kit+6+jogo+americano+sousplat+redondo+38cm+cinza+claro"
         },
         {
-          "label": "Pesquisar no Mercado Livre",
-          "url": "https://lista.mercadolivre.com.br/jogo-6-copos-vidro-ambar"
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/kit-6-jogo-americano-sousplat-redondo-38cm-cinza-claro"
         },
         {
-          "label": "Pesquisar na Shopee",
-          "url": "https://shopee.com.br/search?keyword=jogo+6+copos+vidro+ambar"
+          "label": "Shopee",
+          "url": "https://br.shp.ee/ZVrkJ3Ew"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/kit+6+jogo+americano+sousplat+redondo+38cm+cinza+claro/"
         }
       ]
     },
     {
-      "id": "jogo-cama",
-      "name": "Para sonhar bem juntinho",
-      "description": "Um jogo de cama queen, 100% algodão, para os dias de descanso no nosso novo ninho. Tons de branco, areia ou verde suave são os nossos favoritos.",
-      "category": "Quarto",
+      "id": "tacas-espumante",
+      "name": "Taças de espumante",
+      "description": "Jogo com 6 taças Bohemia de cristal Titanium, transparentes, de 220 ml. Para brindar aos novos começos com quem a gente ama.",
+      "category": "Mesa posta",
       "images": [
         {
-          "src": "./assets/bedding.svg",
-          "alt": "Ilustração de roupa de cama dobrada em tons de verde e creme"
+          "src": "./assets/gifts/tacas-espumante/01.jpg",
+          "alt": "Jogo com seis taças Bohemia Titanium para espumante de 220 ml",
+          "sourceUrl": "https://a-static.mlcdn.com.br/800x800/jogo-6-tacas-cristal-bohemia-gastro-titanium-champagne-220ml/ngdcom/519b/ad2f1b5bb1ba63c580f489b70fd93e15.jpg"
         }
       ],
       "links": [
         {
-          "label": "Pesquisar na Amazon",
-          "url": "https://www.amazon.com.br/s?k=jogo+cama+queen+algodao+bege"
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=jogo+6+tacas+champagne+Bohemia+cristal+Titanium+220ml"
         },
         {
-          "label": "Pesquisar no Mercado Livre",
-          "url": "https://lista.mercadolivre.com.br/jogo-cama-queen-algodao-bege"
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/jogo-6-tacas-de-champagne-bohemia-cristal-titanium-220ml-incolor/p/MLB70198945?pdp_filters=item_id%3AMLB5601757913"
         },
         {
-          "label": "Pesquisar na Shopee",
-          "url": "https://shopee.com.br/search?keyword=jogo+cama+queen+algodao+bege"
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=jogo+6+tacas+champagne+Bohemia+cristal+Titanium+220ml"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/jogo+6+tacas+champagne+Bohemia+cristal+Titanium+220ml/"
         }
       ]
     },
     {
-      "id": "toalhas-banho",
-      "name": "Um abraço depois do banho",
-      "description": "Toalhas macias para os pequenos momentos de cuidado. Um jogo com 2 toalhas de banho e 2 de rosto, de algodão, em cores claras.",
+      "id": "tacas-sobremesa",
+      "name": "Taças de sobremesa",
+      "description": "Jogo com 6 taças de sobremesa de vidro transparente canelado, de 120 ml cada. Para servir um docinho e prolongar as conversas à mesa.",
+      "category": "Mesa posta",
+      "images": [
+        {
+          "src": "./assets/gifts/tacas-sobremesa/120ml-01.jpg",
+          "alt": "Jogo com 6 taças de sobremesa de vidro transparente canelado, de 120 ml cada",
+          "sourceUrl": "https://a-static.mlcdn.com.br/600x600/kit-de-sobremesa-em-vidro-120-ml-transparente-canelado-para-mousse-gelatina-e-cremes-conecta-ofertas/conectaofertass/10002595-kit6/1038168375836b8c3f85834c744cc9d7.jpeg"
+        },
+        {
+          "src": "./assets/gifts/tacas-sobremesa/120ml-02.jpg",
+          "alt": "Apresentação do conjunto com 6 taças de sobremesa caneladas de 120 ml",
+          "sourceUrl": "https://a-static.mlcdn.com.br/600x600/kit-de-sobremesa-em-vidro-120-ml-transparente-canelado-para-mousse-gelatina-e-cremes-conecta-ofertas/conectaofertass/10002595-kit6/84f6e9365782348f080fb10f719702fe.jpeg"
+        },
+        {
+          "src": "./assets/gifts/tacas-sobremesa/120ml-03.jpg",
+          "alt": "Detalhe da taça de sobremesa de 120 ml em vidro canelado, com pé curto e base arredondada",
+          "sourceUrl": "https://a-static.mlcdn.com.br/600x600/kit-de-sobremesa-em-vidro-120-ml-transparente-canelado-para-mousse-gelatina-e-cremes-conecta-ofertas/conectaofertass/10002595-kit6/af383f2986886e91e1e82c8ea3300709.jpeg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=jogo+6+tacas+sobremesa+vidro+canelado+120ml"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/jogo-6-tacas-sobremesa-vidro-canelado-120ml"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=jogo+6+tacas+sobremesa+vidro+canelado+120ml"
+        },
+        {
+          "label": "Magazine Luiza",
+          "url": "https://clube.magazineluiza.com.br/meliuz/kit-de-sobremesa-em-vidro-120-ml-transparente-canelado-para-mousse-gelatina-e-cremes-conecta-ofertas/p/bj78j5962c/ud/coso/"
+        }
+      ]
+    },
+    {
+      "id": "escorredor-macarrao",
+      "name": "Escorredor de macarrão",
+      "description": "Escorredor de massas LYOR Prime em aço inox, de 24 cm. Para as macarronadas e outras receitas que vão fazer parte da nossa história.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/escorredor-macarrao/01.jpg",
+          "alt": "Escorredor de massas LYOR Prime de aço inox, 24 cm",
+          "sourceUrl": "https://images-na.ssl-images-amazon.com/images/P/B07BYWL17J.01.LZZZZZZZ.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://a.co/d/09k9Pfvo"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/escorredor-massas-lyor-prime-inox-24cm"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=escorredor+massas+Lyor+Prime+inox+24cm"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/escorredor+massas+Lyor+Prime+inox+24cm/"
+        }
+      ]
+    },
+    {
+      "id": "liquidificador",
+      "name": "Liquidificador preto — 127 V",
+      "description": "Liquidificador Oster 1400 Full preto, com jarra de 3,2 litros. Escolher a versão 127 V (110 V) para preparar sucos, vitaminas e receitas na casa nova.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/liquidificador/01.jpg",
+          "alt": "Liquidificador Oster 1400 Full preto de 3,2 litros — vista do produto",
+          "sourceUrl": "https://jcsbrasil.vteximg.com.br/arquivos/ids/175948/OLIQ610-01.jpg?v=639040148563130000"
+        },
+        {
+          "src": "./assets/gifts/liquidificador/02.jpg",
+          "alt": "Liquidificador Oster 1400 Full preto de 3,2 litros — foto 2",
+          "sourceUrl": "https://jcsbrasil.vteximg.com.br/arquivos/ids/232082/OLIQ610.IMG03.jpg?v=639040148563130000"
+        },
+        {
+          "src": "./assets/gifts/liquidificador/03.jpg",
+          "alt": "Liquidificador Oster 1400 Full preto de 3,2 litros — foto 3",
+          "sourceUrl": "https://jcsbrasil.vteximg.com.br/arquivos/ids/232083/OLIQ610.IMG04.jpg?v=639040148563130000"
+        }
+      ],
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://a.co/d/0a8F80mU"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/liquidificador-oster-1400-full-preto-3-2l-127v"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=liquidificador+Oster+1400+Full+preto+3.2L+127V"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/liquidificador+Oster+1400+Full+preto+3.2L+127V/"
+        }
+      ]
+    },
+    {
+      "id": "potes-hermeticos",
+      "name": "Potes herméticos",
+      "description": "Kit com 5 potes para alimentos e tampas vedantes, nos tamanhos 490 ml, 820 ml, 1.300 ml, 2.000 ml e 2.900 ml. Para manter a despensa organizada.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/potes-hermeticos/01.jpg",
+          "alt": "Potes herméticos — foto 1",
+          "sourceUrl": "https://m.media-amazon.com/images/I/61TWYiGupCL._AC_SL1255_.jpg"
+        },
+        {
+          "src": "./assets/gifts/potes-hermeticos/02.jpg",
+          "alt": "Potes herméticos — foto 2",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71A-e0skldL._AC_SL1254_.jpg"
+        },
+        {
+          "src": "./assets/gifts/potes-hermeticos/03.jpg",
+          "alt": "Potes herméticos — foto 3",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71cu1fMwVSL._AC_SL1254_.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://a.co/d/07kIbHFn"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/kit-5-potes-hermeticos-490ml-820ml-1300ml-2000ml-2900ml"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=kit+5+potes+hermeticos+490ml+820ml+1300ml+2000ml+2900ml"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/kit+5+potes+hermeticos+490ml+820ml+1300ml+2000ml+2900ml/"
+        }
+      ]
+    },
+    {
+      "id": "bowl-inox",
+      "name": "Bowl de inox",
+      "description": "Tigela de inox de 22 cm e capacidade de 2 litros. Multiuso para misturar massas, preparar saladas e experimentar receitas juntos.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/bowl-inox/01.jpg",
+          "alt": "Bowl de inox — foto 1",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51QnKHwuMXL._AC_SL1254_.jpg"
+        },
+        {
+          "src": "./assets/gifts/bowl-inox/02.jpg",
+          "alt": "Bowl de inox — foto 2",
+          "sourceUrl": "https://m.media-amazon.com/images/I/618KOQKaXSL._AC_SL1254_.jpg"
+        },
+        {
+          "src": "./assets/gifts/bowl-inox/03.jpg",
+          "alt": "Bowl de inox — foto 3",
+          "sourceUrl": "https://m.media-amazon.com/images/I/61M+hDe4OcL._AC_SL1254_.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://a.co/d/0gns2P6O"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/bowl-inox-22cm-2-litros"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=bowl+inox+22cm+2+litros"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/bowl+inox+22cm+2+litros/"
+        }
+      ]
+    },
+    {
+      "id": "lixeira-banheiro",
+      "name": "Lixeira click para banheiro",
+      "description": "Lixeira branca, modelo premium redondo, com tampa click e pés. Para completar o banheiro com um detalhe simples e prático.",
       "category": "Banheiro",
       "images": [
         {
-          "src": "./assets/towels.svg",
-          "alt": "Ilustração de toalhas de algodão empilhadas"
+          "src": "./assets/gifts/lixeira-banheiro/01.jpg",
+          "alt": "Lixeira click para banheiro — foto 1",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51hS6nhhv3L._SL1254_.jpg"
+        },
+        {
+          "src": "./assets/gifts/lixeira-banheiro/02.jpg",
+          "alt": "Lixeira click para banheiro — foto 2",
+          "sourceUrl": "https://m.media-amazon.com/images/I/61GZPmjNcHL._SL1254_.jpg"
+        },
+        {
+          "src": "./assets/gifts/lixeira-banheiro/03.jpg",
+          "alt": "Lixeira click para banheiro — foto 3",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51EIl4YMW4L._SL1254_.jpg"
         }
       ],
       "links": [
         {
-          "label": "Pesquisar na Amazon",
-          "url": "https://www.amazon.com.br/s?k=jogo+toalhas+banho+rosto+algodao+4+pecas"
+          "label": "Amazon",
+          "url": "https://a.co/d/0iAqpoAe"
         },
         {
-          "label": "Pesquisar no Mercado Livre",
-          "url": "https://lista.mercadolivre.com.br/jogo-toalhas-banho-rosto-algodao-4-pecas"
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/lixeira-branca-premium-redonda-tampa-click-com-pes"
         },
         {
-          "label": "Pesquisar na Shopee",
-          "url": "https://shopee.com.br/search?keyword=jogo+toalhas+banho+rosto+algodao+4+pecas"
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=lixeira+branca+premium+redonda+tampa+click+com+pes"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/lixeira+branca+premium+redonda+tampa+click+com+pes/"
         }
       ]
     },
     {
-      "id": "torradeira",
-      "name": "Manhãs com pão quentinho",
-      "description": "Uma torradeira compacta, com espaço para duas fatias, para deixar o café da manhã ainda mais gostoso. Em tom claro e voltagem de 127 V.",
+      "id": "tabua-corte",
+      "name": "Tábua de corte",
+      "description": "Tábua de vidro temperado com acabamento marmorizado branco, de 34,6 × 24,8 cm. Para preparar e servir os pequenos sabores do dia a dia.",
       "category": "Cozinha",
       "images": [
         {
-          "src": "./assets/toaster.svg",
-          "alt": "Ilustração de torradeira em tom claro com duas fatias de pão"
+          "src": "./assets/gifts/tabua-corte/01.jpg",
+          "alt": "Tábua de corte",
+          "sourceUrl": "https://m.media-amazon.com/images/I/51Y8-f9ioUL._AC_SL1200_.jpg"
         }
       ],
       "links": [
         {
-          "label": "Pesquisar na Amazon",
-          "url": "https://www.amazon.com.br/s?k=torradeira+2+fatias+127v"
+          "label": "Amazon",
+          "url": "https://a.co/d/00MrYns3"
         },
         {
-          "label": "Pesquisar no Mercado Livre",
-          "url": "https://lista.mercadolivre.com.br/torradeira-2-fatias-127v"
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/tabua-vidro-temperado-marmorizada-branca-34-6-24-8"
         },
         {
-          "label": "Pesquisar na Shopee",
-          "url": "https://shopee.com.br/search?keyword=torradeira+2+fatias+127v"
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=tabua+vidro+temperado+marmorizada+branca+34.6+24.8"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/tabua+vidro+temperado+marmorizada+branca+34.6+24.8/"
         }
       ]
     },
     {
-      "id": "vasos",
-      "name": "Um pouco de verde por perto",
-      "description": "Uma plantinha e um vaso de cerâmica para trazer mais vida à sala. Pode ser uma figueira-lira ou outra espécie que goste de bastante luz indireta. Vamos cuidar com muito carinho!",
-      "category": "Decoração",
+      "id": "jarra-vidro",
+      "name": "Jarra de vidro",
+      "description": "Jarra Diamond Premium de vidro transparente, com capacidade de 1,2 litro. Para servir água, sucos e refrescar os encontros na nossa mesa.",
+      "category": "Mesa posta",
       "images": [
         {
-          "src": "./assets/plant.svg",
-          "alt": "Ilustração de figueira em vaso de cerâmica"
+          "src": "./assets/gifts/jarra-vidro/01.jpg",
+          "alt": "Jarra de vidro — foto 1",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71uomtS+wPL._AC_SL1254_.jpg"
+        },
+        {
+          "src": "./assets/gifts/jarra-vidro/02.jpg",
+          "alt": "Jarra de vidro — foto 2",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71QiDEWIEML._AC_SL1254_.jpg"
+        },
+        {
+          "src": "./assets/gifts/jarra-vidro/03.jpg",
+          "alt": "Jarra de vidro — foto 3",
+          "sourceUrl": "https://m.media-amazon.com/images/I/713DyLdv6uL._AC_SL1254_.jpg"
         }
       ],
       "links": [
         {
-          "label": "Pesquisar na Amazon",
-          "url": "https://www.amazon.com.br/s?k=vaso+ceramica+plantas"
+          "label": "Amazon",
+          "url": "https://a.co/d/02Mpk6Ew"
         },
         {
-          "label": "Pesquisar no Mercado Livre",
-          "url": "https://lista.mercadolivre.com.br/figueira-lira-vaso"
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/jarra-vidro-diamond-premium-1-2l-transparente"
         },
         {
-          "label": "Pesquisar na Shopee",
-          "url": "https://shopee.com.br/search?keyword=vaso+ceramica+plantas"
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=jarra+vidro+Diamond+Premium+1.2L+transparente"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/jarra+vidro+Diamond+Premium+1.2L+transparente/"
+        }
+      ]
+    },
+    {
+      "id": "ralador",
+      "name": "Ralador de inox",
+      "description": "Ralador de aço inox com 4 faces, para queijos, legumes, verduras e frutas. Um ajudante para as receitas do nosso novo lar.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/ralador/01.jpg",
+          "alt": "Ralador de inox — foto 1",
+          "sourceUrl": "https://m.media-amazon.com/images/I/516O8T7BdUL._AC_SL1000_.jpg"
+        },
+        {
+          "src": "./assets/gifts/ralador/02.jpg",
+          "alt": "Ralador de inox — foto 2",
+          "sourceUrl": "https://m.media-amazon.com/images/I/61IU8qXCFcL._AC_SL1000_.jpg"
+        },
+        {
+          "src": "./assets/gifts/ralador/03.jpg",
+          "alt": "Ralador de inox — foto 3",
+          "sourceUrl": "https://m.media-amazon.com/images/I/617agoa6ZzL._AC_SL1000_.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://a.co/d/0bpfD1i7"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/ralador-inox-4-faces"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=ralador+inox+4+faces"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/ralador+inox+4+faces/"
         }
       ]
     }

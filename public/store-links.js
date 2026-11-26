@@ -1,7 +1,8 @@
 const STORES = [
-  { name: 'Amazon', icon: 'amazon.svg', domains: ['amazon.com.br', 'amazon.com'], shortHosts: ['amzn.to'] },
+  { name: 'Amazon', icon: 'amazon.svg', domains: ['amazon.com.br', 'amazon.com'], shortHosts: ['amzn.to', 'a.co'] },
   { name: 'Mercado Livre', icon: 'mercado-livre.svg', domains: ['mercadolivre.com.br', 'mercadolivre.com', 'mercadolibre.com'], shortHosts: [] },
-  { name: 'Shopee', icon: 'shopee.svg', domains: ['shopee.com.br', 'shopee.com'], shortHosts: ['shope.ee'] },
+  { name: 'Shopee', icon: 'shopee.svg', domains: ['shopee.com.br', 'shopee.com'], shortHosts: ['shope.ee', 'shp.ee', 'br.shp.ee'] },
+  { name: 'Magazine Luiza', icon: 'magalu.svg', domains: ['magazineluiza.com.br', 'magalu.com', 'magazinevoce.com.br'], shortHosts: [] },
 ];
 
 /** Build a shopping link from a validated destination; labels never identify a store. */
