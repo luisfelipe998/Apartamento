@@ -1,6 +1,7 @@
 import { createGiftClient } from './client.js';
-import { normalizeImages, resolveImageUrl } from './media.js';
+import { resolveImageUrl } from './media.js';
 import { createStoreLink } from './store-links.js';
+import { loadGiftCatalog } from './catalog.js';
 
 (() => {
   'use strict';
@@ -8,7 +9,7 @@ import { createStoreLink } from './store-links.js';
 
   const $ = (selector) => document.querySelector(selector);
   const deviceStorageKey = 'casa-nova.device.v1';
-  const state = { session: null, items: [], reservations: {}, status: 'all', category: '', search: '', statusReady: false, loading: false, pending: false, pendingItemId: null, selectedId: null, revision: 0, toastTimer: null };
+  const state = { session: null, items: [], reservations: {}, status: 'all', category: '', search: '', statusReady: false, loading: false, loadingRevision: null, pending: false, pendingItemId: null, selectedId: null, revision: 0, toastTimer: null };
 
   function storageRead(kind, key) {
     try { return window[kind].getItem(key); } catch { return null; }
@@ -36,14 +37,6 @@ import { createStoreLink } from './store-links.js';
   }
   function normalized(value) {
     return String(value || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLocaleLowerCase('pt-BR');
-  }
-  function safeUrl(value, allowRelative = false) {
-    if (typeof value !== 'string' || !value.trim()) return null;
-    if (!allowRelative && !value.toLowerCase().startsWith('https://') && !value.toLowerCase().startsWith('http://')) return null;
-    try {
-      const url = new URL(value, document.baseURI);
-      return ['https:', 'http:'].includes(url.protocol) ? url.href : null;
-    } catch { return null; }
   }
   function setImage(image, src, alt) {
     image.alt = alt || '';
@@ -163,6 +156,7 @@ import { createStoreLink } from './store-links.js';
     state.pending = false;
     state.pendingItemId = null;
     state.loading = false;
+    state.loadingRevision = null;
     state.revision += 1;
     state.selectedId = null;
     $('#gift-dialog').close();
@@ -177,19 +171,8 @@ import { createStoreLink } from './store-links.js';
     try { await logout; } finally { $('#login-button').disabled = false; }
   }
 
-  async function loadCatalog() {
-    const catalogUrl = new URL('./data/items.json', document.baseURI);
-    catalogUrl.searchParams.set('v', Date.now().toString());
-    const response = await fetch(catalogUrl, { cache: 'no-store', signal: AbortSignal.timeout(15000) });
-    if (!response.ok) throw new Error('Não conseguimos carregar os presentes. Tente atualizar a lista.');
-    const data = await response.json();
-    if (!data || !Array.isArray(data.items)) throw new Error('A lista de presentes está indisponível. Tente novamente mais tarde.');
-    const ids = new Set();
-    state.items = data.items.map((item) => {
-      if (!item || typeof item.id !== 'string' || !/^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$/.test(item.id) || ids.has(item.id) || typeof item.name !== 'string') throw new Error('A lista de presentes está indisponível. Tente novamente mais tarde.');
-      ids.add(item.id);
-      return { id: item.id, name: item.name, description: String(item.description || ''), category: String(item.category || 'Para a casa'), images: normalizeImages(item.images, item.name), links: Array.isArray(item.links) ? item.links.filter((link) => link && safeUrl(link.url)) : [] };
-    });
+  function applyCatalog(data) {
+    state.items = data.items;
     if (typeof data.title === 'string') document.title = data.title;
     if (typeof data.subtitle === 'string') $('#list-description').textContent = data.subtitle;
     const select = $('#category-filter');
@@ -198,6 +181,10 @@ import { createStoreLink } from './store-links.js';
     if (!Array.from(select.options).some((option) => option.value === state.category)) state.category = '';
     select.value = state.category;
     render();
+    if ($('#gift-dialog').open) {
+      if (state.items.some((item) => item.id === state.selectedId)) openGift(state.selectedId);
+      else $('#gift-dialog').close();
+    }
   }
 
   function applySnapshot(snapshot) {
@@ -214,14 +201,28 @@ import { createStoreLink } from './store-links.js';
     if (state.selectedId && $('#gift-dialog').open) updateDialogState();
   }
 
-  async function refreshReservations({ quiet = false } = {}) {
+  async function refreshReservations({ quiet = false, refreshCatalog = false } = {}) {
     if (!state.session || state.pending || state.loading) return;
     state.loading = true;
     const revision = ++state.revision;
+    state.loadingRevision = revision;
     const session = state.session;
+    let catalogLoaded = !refreshCatalog;
     $('#refresh-button').disabled = true;
     $('#refresh-button').setAttribute('aria-busy', 'true');
+    if (refreshCatalog) {
+      state.statusReady = false;
+      $('#gift-grid').setAttribute('aria-busy', 'true');
+      if (state.items.length) render();
+      if ($('#gift-dialog').open) updateDialogState();
+    }
     try {
+      if (refreshCatalog) {
+        const catalog = await loadGiftCatalog();
+        if (revision !== state.revision || session !== state.session) return;
+        applyCatalog(catalog);
+        catalogLoaded = true;
+      }
       const snapshot = await request(() => client.getReservations());
       if (revision !== state.revision || session !== state.session) return;
       applySnapshot(snapshot);
@@ -229,14 +230,17 @@ import { createStoreLink } from './store-links.js';
     } catch (error) {
       if (error.status === 401 || session !== state.session || revision !== state.revision) return;
       state.statusReady = false;
-      setMessage(`${errorMessage(error)} As reservas precisam ser confirmadas antes de escolher um presente.`);
+      setMessage(errorMessage(error) + (catalogLoaded ? ' As reservas precisam ser confirmadas antes de escolher um presente.' : ''));
       render();
       if ($('#gift-dialog').open) updateDialogState();
     } finally {
-      state.loading = false;
-      $('#refresh-button').disabled = false;
-      $('#refresh-button').setAttribute('aria-busy', 'false');
-      $('#gift-grid').setAttribute('aria-busy', 'false');
+      if (state.loadingRevision === revision) {
+        state.loading = false;
+        state.loadingRevision = null;
+        $('#refresh-button').disabled = false;
+        $('#refresh-button').setAttribute('aria-busy', 'false');
+        $('#gift-grid').setAttribute('aria-busy', 'false');
+      }
     }
   }
 
@@ -249,20 +253,7 @@ import { createStoreLink } from './store-links.js';
     $('#gift-grid').setAttribute('aria-busy', 'true');
     $('#gift-grid').replaceChildren(...Array.from({ length: 6 }, () => { const skeleton = element('div', 'card-skeleton'); skeleton.setAttribute('aria-hidden', 'true'); return skeleton; }));
     setMessage('');
-    const session = state.session;
-    try {
-      await loadCatalog();
-      if (!state.session || session !== state.session) return;
-      await refreshReservations({ quiet: true });
-    } catch (error) {
-      if (session !== state.session) return;
-      state.items = [];
-      state.statusReady = false;
-      $('#gift-grid').replaceChildren();
-      $('#gift-grid').setAttribute('aria-busy', 'false');
-      setMessage(errorMessage(error));
-      $('#refresh-button').disabled = false;
-    }
+    await refreshReservations({ quiet: true, refreshCatalog: true });
   }
 
   function render() {
@@ -461,7 +452,7 @@ import { createStoreLink } from './store-links.js';
   $('#logout-button').addEventListener('click', () => endSession());
   $('#refresh-button').addEventListener('click', async () => {
     if (!state.items.length) await openList();
-    else await refreshReservations();
+    else await refreshReservations({ refreshCatalog: true });
   });
   document.querySelectorAll('[data-status]').forEach((button) => button.addEventListener('click', () => { state.status = button.dataset.status; render(); }));
   $('#search').addEventListener('input', (event) => { state.search = event.target.value; render(); });
