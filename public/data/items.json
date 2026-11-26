@@ -689,6 +689,304 @@
           "url": "https://www.magazineluiza.com.br/busca/ralador+inox+4+faces/"
         }
       ]
+    },
+    {
+      "id": "manta-sofa",
+      "name": "Manta para sofá",
+      "description": "Manta decorativa Döhler Bali bege-claro, de 1,50 x 2,10 m, em 100% algodão e com franjas. Um toque de aconchego para os filmes e cafés no sofá.",
+      "category": "Sala",
+      "images": [
+        {
+          "src": "./assets/gifts/manta-sofa/01.jpg",
+          "alt": "Manta para sofá Döhler Bali bege-claro com franjas, dobrada",
+          "sourceUrl": "https://a-static.mlcdn.com.br/1200x1200/manta-xale-sofa-dohler-bali-100-algodao-natural-c-franjas-150-x-210cm-bege-claro/lojacasaviva/11095/4a16f67abc3c4c9c339398560383bbce.jpeg"
+        },
+        {
+          "src": "./assets/gifts/manta-sofa/02.jpg",
+          "alt": "Detalhe da trama de algodão da manta Döhler Bali bege-claro",
+          "sourceUrl": "https://a-static.mlcdn.com.br/1200x1200/manta-xale-sofa-dohler-bali-100-algodao-natural-c-franjas-150-x-210cm-bege-claro/lojacasaviva/11095/0a4072f48d5d27ca43e58663826b1e18.jpeg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=manta+Dohler+Bali+150x210+bege+claro"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/manta-dohler-bali-150x210-bege-claro"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=manta+Dohler+Bali+150x210+bege+claro"
+        },
+        {
+          "label": "Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/manta-xale-sofa-dohler-bali-100-algodao-natural-c-franjas-150-x-210cm-bege-claro/p/kc1h6j81j4/cm/maso/"
+        }
+      ]
+    },
+    {
+      "id": "sanduicheira",
+      "name": "Sanduicheira",
+      "description": "Sanduicheira e grill Mondial Fast Grill & Sandwich S-12, preta, 750 W e 110 V. Para preparar sanduíches quentinhos e lanches no nosso cantinho.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/sanduicheira/01.jpg",
+          "alt": "Sanduicheira Mondial Fast Grill & Sandwich S-12 preta, fechada",
+          "sourceUrl": "https://m.media-amazon.com/images/I/716iLMhJVuL._AC_SL1500_.jpg"
+        },
+        {
+          "src": "./assets/gifts/sanduicheira/02.jpg",
+          "alt": "Sanduicheira Mondial S-12 aberta, com grelhas duplas",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71rFgvArbkL._AC_SL1500_.jpg"
+        },
+        {
+          "src": "./assets/gifts/sanduicheira/03.jpg",
+          "alt": "Detalhe do revestimento antiaderente e da alça da sanduicheira Mondial S-12",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71SPqTDZ8XL._AC_SL1500_.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://a.co/d/0eMixZb3"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/sanduicheira-Mondial-Fast-Grill-S-12-preta-750W-110V"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=sanduicheira+Mondial+Fast+Grill+S-12+preta+750W+110V"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/sanduicheira+Mondial+Fast+Grill+S-12+preta+750W+110V/"
+        }
+      ]
+    },
+    {
+      "id": "peneira",
+      "name": "Peneira",
+      "description": "Peneira Tramontina Utilità de 17 cm, com tela de aço inox e cabo preto. Para coar os sucos e preparar as receitas que vão perfumar a casa.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/peneira/01.jpg",
+          "alt": "Peneira Tramontina Utilità de 17 cm com tela de aço inox e cabo preto",
+          "sourceUrl": "https://a-static.mlcdn.com.br/1200x1200/peneira-inox-17cm-tramontina-utilita/magazineluiza/226301100/87856d46abb7ed2dfefaa57005f25f45.jpg"
+        },
+        {
+          "src": "./assets/gifts/peneira/02.jpg",
+          "alt": "Peneira Tramontina Utilità com cabo preto em uso para peneirar farinha",
+          "sourceUrl": "https://a-static.mlcdn.com.br/1200x1200/peneira-inox-17cm-tramontina-utilita/magazineluiza/226301100/22547c347ee7d59a81e98376ee17c4ee.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=peneira+Tramontina+Utilita+17cm+cabo+preto"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/peneira-tramontina-utilita-17cm-cabo-preto"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=peneira+Tramontina+Utilita+17cm+cabo+preto"
+        },
+        {
+          "label": "Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/peneira-inox-17cm-tramontina-utilita/p/226301100/ud/enei/"
+        }
+      ]
+    },
+    {
+      "id": "kit-dispenser-banheiro",
+      "name": "Kit dispenser para banheiro",
+      "description": "Kit Lyor Lille com 3 peças de cerâmica branca: dispenser para sabonete líquido, porta-escovas e saboneteira. Para deixar a bancada organizada e cheia de cuidado.",
+      "category": "Banheiro",
+      "images": [
+        {
+          "src": "./assets/gifts/kit-dispenser-banheiro/01.jpg",
+          "alt": "Kit de banheiro Lyor Lille branco com dispenser, porta-escovas e saboneteira",
+          "sourceUrl": "https://precolandia.vteximg.com.br/arquivos/ids/330038/081132-Image-1.jpg?v=639306232995700000"
+        },
+        {
+          "src": "./assets/gifts/kit-dispenser-banheiro/02.jpg",
+          "alt": "Dispenser de cerâmica branca com válvula prateada do kit Lyor Lille",
+          "sourceUrl": "https://precolandia.vteximg.com.br/arquivos/ids/330040/081132-Image-2.jpg?v=639306232995700000"
+        },
+        {
+          "src": "./assets/gifts/kit-dispenser-banheiro/03.jpg",
+          "alt": "Porta-escovas de cerâmica branca do kit Lyor Lille",
+          "sourceUrl": "https://precolandia.vteximg.com.br/arquivos/ids/330042/081132-Image-3.jpg?v=639306232995830000"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=kit+banheiro+Lyor+Lille+ceramica+branco+3+pecas"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/kit-banheiro-lyor-lille-ceramica-branco-3-pecas"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=kit+banheiro+Lyor+Lille+ceramica+branco+3+pecas"
+        },
+        {
+          "label": "Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/3-pecas-para-banheiro-lyor-lille-de-ceramica-branco/p/eb29j9d26b/ud/udab/"
+        }
+      ]
+    },
+    {
+      "id": "passadeira-cozinha",
+      "name": "Kit de tapetes para cozinha",
+      "description": "Kit Maya com três tapetes antiderrapantes em tons de cinza, para deixar nossa cozinha mais aconchegante nos preparos do dia a dia.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/passadeira-cozinha/01.jpg",
+          "alt": "Kit Maya com uma passadeira e dois tapetes de cozinha em tons de cinza",
+          "sourceUrl": "https://http2.mlstatic.com/D_NQ_NP_746315-MLA113207760839_062026-O.webp"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=kit%20tapete%20cozinha%20Maya%20antiderrapante%203%20pe%C3%A7as%20cinza"
+        },
+        {
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/kit-tapete-cozinha-maya-antiderrapante--jogo-com-3-pecas/up/MLBU4054845710?pdp_filters=item_id%3AMLB4736911149"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=kit%20tapete%20cozinha%20Maya%20antiderrapante%203%20pe%C3%A7as%20cinza"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/kit+tapete+cozinha+Maya+antiderrapante+3+pe%C3%A7as+cinza/"
+        }
+      ]
+    },
+    {
+      "id": "forma-pizza",
+      "name": "Forma de pizza",
+      "description": "Forma redonda para pizza Tramontina, em alumínio com revestimento antiaderente grafite e 30 cm de diâmetro. Para as noites de pizza no nosso novo lar.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/forma-pizza/01.jpg",
+          "alt": "Forma de pizza redonda Tramontina antiaderente grafite de 30 cm, vista de cima",
+          "sourceUrl": "https://m.media-amazon.com/images/I/810HGPbTSbL._AC_SL1500_.jpg"
+        },
+        {
+          "src": "./assets/gifts/forma-pizza/02.jpg",
+          "alt": "Forma de pizza Tramontina grafite de 30 cm, vista lateral",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71K7vZLMzUL._AC_SL1500_.jpg"
+        },
+        {
+          "src": "./assets/gifts/forma-pizza/03.jpg",
+          "alt": "Pizza servida na forma redonda Tramontina grafite de 30 cm",
+          "sourceUrl": "https://m.media-amazon.com/images/I/91HD--lHlzL._AC_SL1500_.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://a.co/d/0bdWMH0G"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/forma-pizza-Tramontina-antiaderente-aluminio-grafite-30cm"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=forma+pizza+Tramontina+antiaderente+aluminio+grafite+30cm"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/forma+pizza+Tramontina+antiaderente+aluminio+grafite+30cm/"
+        }
+      ]
+    },
+    {
+      "id": "forma-fundo-removivel",
+      "name": "Forma com fundo removível",
+      "description": "Forma redonda preta de 26 cm, com revestimento antiaderente e fundo removível, para desenformar os bolos e as tortas da nossa casa com carinho.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/forma-fundo-removivel/01.jpg",
+          "alt": "Forma redonda preta de 26 cm Mimo Style Essence com fecho lateral",
+          "sourceUrl": "https://a-static.mlcdn.com.br/1000x1000/forma-redonda-grande-com-fundo-removivel-essence-26-cm-mimo-style/vidaverdefloresepresentes/4759/c953920fe622011475d9acf1b8d6a86b.jpeg"
+        },
+        {
+          "src": "./assets/gifts/forma-fundo-removivel/02.jpg",
+          "alt": "Forma Mimo Style Essence com aro aberto e fundo removível separado",
+          "sourceUrl": "https://a-static.mlcdn.com.br/1000x1000/forma-redonda-grande-com-fundo-removivel-essence-26-cm-mimo-style/vidaverdefloresepresentes/4759/a29df63052354a720ff100de6a64edf6.jpeg"
+        },
+        {
+          "src": "./assets/gifts/forma-fundo-removivel/03.jpg",
+          "alt": "Vista superior do fundo texturizado da forma redonda preta",
+          "sourceUrl": "https://a-static.mlcdn.com.br/1000x1000/forma-redonda-grande-com-fundo-removivel-essence-26-cm-mimo-style/vidaverdefloresepresentes/4759/f191d8ff38c12c433a0764d4e4714e0e.jpeg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=forma%20redonda%20fundo%20remov%C3%ADvel%20antiaderente%2026%20cm%20preta%20Mimo%20Style%20Essence"
+        },
+        {
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/forma-fundo-removivel-antiaderente-tortas-bolo-26cm-preto/p/MLB64207188?pdp_filters=item_id%3AMLB6250625008"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=forma%20redonda%20fundo%20remov%C3%ADvel%20antiaderente%2026%20cm%20preta%20Mimo%20Style%20Essence"
+        },
+        {
+          "label": "Magazine Luiza",
+          "url": "https://clube.magazineluiza.com.br/meliuz/forma-redonda-grande-com-fundo-removivel-essence-26-cm-mimo-style/p/ced06a6af9/ud/assa/"
+        }
+      ]
+    },
+    {
+      "id": "assadeiras",
+      "name": "Jogo de assadeiras",
+      "description": "Jogo E68 com três assadeiras retangulares de alumínio, tamanhos 1, 2 e 3, para os bolos, as tortas e os almoços especiais da casa nova.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/assadeiras/01.jpg",
+          "alt": "Jogo Donna Magnolia E68 com três assadeiras retangulares de alumínio, tamanhos 1, 2 e 3",
+          "sourceUrl": "https://m.media-amazon.com/images/I/41m3wVlJKSL._AC_SL1200_.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://www.amazon.com.br/dp/B0BJSN8G5N"
+        },
+        {
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/jogo-3-forma-assadeira-bolo-torta-retangular-1-2-3-e68/p/MLB27669758?pdp_filters=item_id%3AMLB4334165650"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=jogo%203%20assadeiras%20retangulares%20alum%C3%ADnio%201%202%203%20E68%20Donna%20Magnolia"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/jogo+3+assadeiras+retangulares+alum%C3%ADnio+1+2+3+E68+Donna+Magnolia/"
+        }
+      ]
     }
   ]
 }
