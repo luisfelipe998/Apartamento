@@ -877,42 +877,42 @@
     },
     {
       "id": "forma-pizza",
-      "name": "Forma de pizza",
-      "description": "Forma redonda para pizza Tramontina, em alumínio com revestimento antiaderente grafite e 30 cm de diâmetro. Para as noites de pizza no nosso novo lar.",
+      "name": "Forma de pizza de alumínio",
+      "description": "Forma redonda para pizza em alumínio prateado, de 35 cm de diâmetro e 1,5 cm de altura. Para preparar e servir as pizzas das nossas noites em casa.",
       "category": "Cozinha",
       "images": [
         {
           "src": "./assets/gifts/forma-pizza/01.jpg",
-          "alt": "Forma de pizza redonda Tramontina antiaderente grafite de 30 cm, vista de cima",
-          "sourceUrl": "https://m.media-amazon.com/images/I/810HGPbTSbL._AC_SL1500_.jpg"
+          "alt": "Forma de pizza redonda de alumínio prateado com borda baixa, de 35 cm",
+          "sourceUrl": "https://m.media-amazon.com/images/I/31alhEY1gVL._AC_SL1080_.jpg"
         },
         {
           "src": "./assets/gifts/forma-pizza/02.jpg",
-          "alt": "Forma de pizza Tramontina grafite de 30 cm, vista lateral",
-          "sourceUrl": "https://m.media-amazon.com/images/I/71K7vZLMzUL._AC_SL1500_.jpg"
+          "alt": "Forma redonda de alumínio prateado com indicação do diâmetro de 35 cm",
+          "sourceUrl": "https://m.media-amazon.com/images/I/41hd8oxgv3L._AC_SL1080_.jpg"
         },
         {
           "src": "./assets/gifts/forma-pizza/03.jpg",
-          "alt": "Pizza servida na forma redonda Tramontina grafite de 30 cm",
-          "sourceUrl": "https://m.media-amazon.com/images/I/91HD--lHlzL._AC_SL1500_.jpg"
+          "alt": "Pizza ilustrativa servida na forma redonda de alumínio de 35 cm",
+          "sourceUrl": "https://m.media-amazon.com/images/I/61aF9oGePgL._AC_SL1080_.jpg"
         }
       ],
       "links": [
         {
           "label": "Amazon",
-          "url": "https://a.co/d/0bdWMH0G"
+          "url": "https://www.amazon.com.br/dp/B07F5Z1HBG"
         },
         {
           "label": "Buscar no Mercado Livre",
-          "url": "https://lista.mercadolivre.com.br/forma-pizza-Tramontina-antiaderente-aluminio-grafite-30cm"
+          "url": "https://lista.mercadolivre.com.br/forma-pizza-redonda-aluminio-prateado-35cm"
         },
         {
           "label": "Buscar na Shopee",
-          "url": "https://shopee.com.br/search?keyword=forma+pizza+Tramontina+antiaderente+aluminio+grafite+30cm"
+          "url": "https://shopee.com.br/search?keyword=forma+pizza+redonda+aluminio+prateado+35cm"
         },
         {
           "label": "Buscar na Magazine Luiza",
-          "url": "https://www.magazineluiza.com.br/busca/forma+pizza+Tramontina+antiaderente+aluminio+grafite+30cm/"
+          "url": "https://www.magazineluiza.com.br/busca/forma+pizza+redonda+aluminio+prateado+35cm/"
         }
       ]
     },
@@ -985,6 +985,233 @@
         {
           "label": "Buscar na Magazine Luiza",
           "url": "https://www.magazineluiza.com.br/busca/jogo+3+assadeiras+retangulares+alum%C3%ADnio+1+2+3+E68+Donna+Magnolia/"
+        }
+      ]
+    },
+    {
+      "id": "saleiro",
+      "name": "Saleiro bege com tampa",
+      "description": "Saleiro Ou da linha Trium, bege, em polipropileno e com tampa, para usar sobre a bancada ou fixar na parede. Para deixar o sal sempre à mão nas receitas da nossa casa.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/saleiro/01.jpg",
+          "alt": "Saleiro Ou Trium bege com tampa e suporte para fixação na parede",
+          "sourceUrl": "https://http2.mlstatic.com/D_NQ_NP_677950-MLA100072894115_122025-OO.png"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=saleiro%20Ou%20Trium%20bege%20tampa%20parede"
+        },
+        {
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/saleiro-trium-com-tampa-de-mesa-parede-porta-sal-temperos-ou-cor-bege/p/MLB24435771?pdp_filters=item_id%3AMLB4072654317"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=saleiro%20Ou%20Trium%20bege%20tampa%20parede"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/saleiro+Ou+Trium+bege+tampa+parede/"
+        }
+      ]
+    },
+    {
+      "id": "organizador-pia-compacto",
+      "name": "Organizador de pia compacto",
+      "description": "Organizador Ou Trium Compacto bege, de 19,5 × 14 × 7 cm, com espaço para detergente, esponja e sabão em barra. Um cuidado para manter a pia organizada no dia a dia.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/organizador-pia-compacto/01.jpg",
+          "alt": "Organizador de pia Ou Trium Compacto bege com divisórias para detergente, esponja e sabão",
+          "sourceUrl": "https://http2.mlstatic.com/D_NQ_NP_617455-MLA99608937984_122025-OO.png"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=organizador%20pia%20Ou%20Trium%20Compacto%20bege%20OP500BGF"
+        },
+        {
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/organizador-de-pia-porta-detergente-esponja-e-sabao-trium-co/p/MLB28661540?pdp_filters=item_id%3AMLB6854047872"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=organizador%20pia%20Ou%20Trium%20Compacto%20bege%20OP500BGF"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/organizador+pia+Ou+Trium+Compacto+bege+OP500BGF/"
+        }
+      ]
+    },
+    {
+      "id": "baldes-limpeza",
+      "name": "Kit com dois baldes",
+      "description": "Kit com dois baldes Sanremo Oba transparentes, de 8 litros cada, com alças ergonômicas. Para ajudar na limpeza e nos cuidados com o nosso novo lar.",
+      "category": "Lavanderia",
+      "images": [
+        {
+          "src": "./assets/gifts/baldes-limpeza/01.jpg",
+          "alt": "Kit com dois baldes Sanremo Oba transparentes de 8 litros e alças verdes",
+          "sourceUrl": "https://http2.mlstatic.com/D_NQ_NP_665849-MLB116182323338_092026-OO.png"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=kit%202%20baldes%20Sanremo%20Oba%208%20litros%20transparente"
+        },
+        {
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/kit-2-balde-sanremo-transparente-alca-ergonomica-bpa-free/up/MLBU5202233196?pdp_filters=item_id%3AMLB7640783646"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=kit%202%20baldes%20Sanremo%20Oba%208%20litros%20transparente"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/kit+2+baldes+Sanremo+Oba+8+litros+transparente/"
+        }
+      ]
+    },
+    {
+      "id": "pa-lixo-articulada",
+      "name": "Pá de lixo articulada",
+      "description": "Pá de lixo Noviça Bettanin verde, com cabo articulado. Uma ajuda prática para recolher a sujeira e cuidar do nosso cantinho.",
+      "category": "Lavanderia",
+      "images": [
+        {
+          "src": "./assets/gifts/pa-lixo-articulada/01.jpg",
+          "alt": "Pá de lixo Noviça Bettanin verde com cabo articulado, em uso na limpeza do piso",
+          "sourceUrl": "https://http2.mlstatic.com/D_822047-MLA105887416993_012026-O.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=pa%20lixo%20Novica%20Bettanin%20cabo%20articulado%20verde"
+        },
+        {
+          "label": "Mercado Livre",
+          "url": "https://produto.mercadolivre.com.br/MLB-7900251072-pa-de-lixo-com-cabo-articulado-novica-bettanin-cor-verde-_JM"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=pa%20lixo%20Novica%20Bettanin%20cabo%20articulado%20verde"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/pa+lixo+Novica+Bettanin+cabo+articulado+verde/"
+        }
+      ]
+    },
+    {
+      "id": "organizadores-prateleira",
+      "name": "Kit de prateleiras organizadoras",
+      "description": "Kit com duas prateleiras organizadoras de aço aramado branco, de 42 cm, com pés antiderrapantes. Para aproveitar o espaço dos armários e acomodar os utensílios da nossa cozinha.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/organizadores-prateleira/01.jpg",
+          "alt": "Kit com duas prateleiras organizadoras de aço aramado branco de 42 cm",
+          "sourceUrl": "https://http2.mlstatic.com/D_NQ_NP_990176-MLA113589330665_062026-OO.png"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=kit%202%20prateleiras%20organizadoras%20aramado%20aco%20branco%2042%20cm"
+        },
+        {
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/kit-organizador-prateleira-grande-42cm-2-unidades-100-aco-cor-branco/p/MLB74319693?pdp_filters=item_id%3AMLB4801523253"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=kit%202%20prateleiras%20organizadoras%20aramado%20aco%20branco%2042%20cm"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/kit+2+prateleiras+organizadoras+aramado+aco+branco+42+cm/"
+        }
+      ]
+    },
+    {
+      "id": "fruteira-chao",
+      "name": "Fruteira de chão",
+      "description": "Fruteira Amaro Shop com estrutura de aço preta, três cestos deslizantes e tampo em MDP, de 75 × 40 × 30 cm (altura × largura × profundidade). Para organizar frutas e legumes e aproveitar o espaço da nossa cozinha.",
+      "category": "Cozinha",
+      "images": [
+        {
+          "src": "./assets/gifts/fruteira-chao/01.jpg",
+          "alt": "Fruteira de chão Amaro Shop com estrutura preta, três cestos aramados com frutas ilustrativas e tampo amadeirado",
+          "sourceUrl": "https://http2.mlstatic.com/D_NQ_NP_943932-MLB117030309743_092026-OO.png"
+        }
+      ],
+      "links": [
+        {
+          "label": "Buscar na Amazon",
+          "url": "https://www.amazon.com.br/s?k=fruteira+chao+Amaro+Shop+3+cestos+preta+tampo+MDP+75x40x30"
+        },
+        {
+          "label": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br/fruteira-chao-cozinha-mesa-bebedouro-suporte-microondas-aco/up/MLBU4380728166?pdp_filters=item_id%3AMLB7208645080"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=fruteira+chao+Amaro+Shop+3+cestos+preta+tampo+MDP+75x40x30"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/fruteira+chao+Amaro+Shop+3+cestos+preta+tampo+MDP+75x40x30/"
+        }
+      ]
+    },
+    {
+      "id": "cesto-roupa",
+      "name": "Cesto de roupa com tampa",
+      "description": "Cesto de roupa suja branco, de 72 litros, em plástico com trama estilo rattan, tampa e alças laterais. Para organizar a lavanderia e reunir as roupas até a hora de lavar.",
+      "category": "Lavanderia",
+      "images": [
+        {
+          "src": "./assets/gifts/cesto-roupa/01.jpg",
+          "alt": "Cesto de roupa branco de 72 litros, com trama estilo rattan, mostrado aberto e fechado",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71yjzDUPGQL._AC_SL1254_.jpg"
+        },
+        {
+          "src": "./assets/gifts/cesto-roupa/02.jpg",
+          "alt": "Medidas do cesto de roupa branco: 62 cm de altura e abertura superior de 45 por 35 cm",
+          "sourceUrl": "https://m.media-amazon.com/images/I/71SK2ryuYxL._AC_SL1254_.jpg"
+        },
+        {
+          "src": "./assets/gifts/cesto-roupa/03.jpg",
+          "alt": "Detalhes da tampa, das alças laterais e da trama ventilada do cesto de roupa",
+          "sourceUrl": "https://m.media-amazon.com/images/I/7175BzPoNRL._AC_SL1254_.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://www.amazon.com.br/dp/B0H326BSZR"
+        },
+        {
+          "label": "Buscar no Mercado Livre",
+          "url": "https://lista.mercadolivre.com.br/cesto-roupa-suja-72-litros-branco-tampa-rattan"
+        },
+        {
+          "label": "Buscar na Shopee",
+          "url": "https://shopee.com.br/search?keyword=cesto+roupa+suja+72+litros+branco+tampa+rattan"
+        },
+        {
+          "label": "Buscar na Magazine Luiza",
+          "url": "https://www.magazineluiza.com.br/busca/cesto+roupa+suja+72+litros+branco+tampa+rattan/"
         }
       ]
     }
